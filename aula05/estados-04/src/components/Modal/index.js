@@ -21,7 +21,6 @@ const Modal = ({ handleToggleModal, modalOpen, setPosts, posts }) => {
     setTextArea("");
     handleToggleModal();
   };
-
   return (
     <>
       {modalOpen && (
