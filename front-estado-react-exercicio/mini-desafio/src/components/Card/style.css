@@ -1,0 +1,5 @@
+.card img {
+  width: 186px;
+  height: 286px;
+  flex-shrink: 0;
+}

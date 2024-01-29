@@ -1,7 +1,31 @@
 .container {
   height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.container-navbar {
+  height: 100vh;
+  width: 14vw;
+  background: linear-gradient(180deg, #000 0%, rgba(15, 13, 15, 0.65) 100%);
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container-main {
+  height: 100vh;
+  width: 86vw;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.container-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 0 100px;
 }

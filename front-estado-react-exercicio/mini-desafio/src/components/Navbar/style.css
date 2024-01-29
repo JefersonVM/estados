@@ -1,0 +1,51 @@
+.container-navbar {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.logo {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.logo > img {
+  width: 50px;
+  height: 50px;
+}
+.logo h1 {
+  width: 130px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container-navbar button {
+  width: 160px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background-color: #f0c551;
+  border: none;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 65px;
+  cursor: pointer;
+}
