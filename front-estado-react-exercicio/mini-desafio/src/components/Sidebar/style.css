@@ -5,7 +5,6 @@
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 .logo {
@@ -48,4 +47,8 @@
   line-height: normal;
   margin-bottom: 65px;
   cursor: pointer;
+}
+
+.container-navbar button:hover {
+  opacity: 0.8;
 }
